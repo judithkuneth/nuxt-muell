@@ -1,7 +1,8 @@
 <template>
+<div>
   <Quizz />
+</div>
 </template>
 
 <script>
-export default {}
 </script>

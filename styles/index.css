@@ -10,3 +10,24 @@ button {
   background-color: #f1f1f1;
   cursor: pointer;
 }
+
+.glass {
+  background-color: green;
+}
+.paper {
+  background-color: red;
+}
+.rest {
+  background-color: black;
+  color: white;
+}
+.plastic {
+  background-color: yellow;
+}
+.metall {
+  background-color: blue;
+  color: white;
+}
+.bio {
+  background-color: brown;
+}

@@ -4,20 +4,24 @@
       <h1>Where does this item go..?</h1>
       <img :src="getImageUrl()" alt="Tirolmilch" height="320">
     </div>
-    <div>
-      <button @click="updateResponse('papier')">
-        Papier
-      </button>
-      <button @click="updateResponse('glas')">
-        Glas
-      </button>
-      <button @click="updateResponse('plastic')">
-        Plastik
-      </button>
-      <button @click="updateResponse('rest')">
+    <div class="buttonWrapper">
+      <button class="rest" @click="updateResponse('rest')">
         Restmüll
       </button>
+      <button class="plastic" @click="updateResponse('plastic')">
+        Plastik
+      </button>
+      <button class="metall" @click="updateResponse('metall')">
+        Metall
+      </button>
+      <button class="glass" @click="updateResponse('glas')">
+        Glas
+      </button>
+      <button class="paper" @click="updateResponse('papier')">
+        Papier
+      </button>
     </div>
+    <h2>Score: {{ score }}</h2>
     <h2 v-if="selectedResponse != '' && !check()">
       oh no
     </h2>
@@ -25,17 +29,14 @@
 </template>
 
 <script>
+import { products } from '../static/constants.js'
 export default {
   data () {
     return {
-      products: [
-        { id: 1, name: 'Milchverpackung', recycle: 'plastic' },
-        { id: 2, name: 'Teebeutel', recycle: 'rest' },
-        { id: 3, name: 'Weinflasche', recycle: 'glas' },
-        { id: 4, name: 'Zeitung', recycle: 'papier' }
-      ],
+      products,
       selectedResponse: '',
-      currentProductId: 1
+      currentProductId: 1,
+      score: 0
     }
   },
   methods: {
@@ -51,7 +52,7 @@ export default {
       this.check()
     },
     check () {
-      if (this.products.find(item => item.id === this.currentProductId).recycle === this.selectedResponse) { this.nextQuestion() } else { return false }
+      if (this.products.find(item => item.id === this.currentProductId).recycle === this.selectedResponse) { this.score++; this.nextQuestion() } else { this.score = 0 }
     },
     nextQuestion () {
       this.selectedResponse = ''; if (this.currentProductId < 4) { this.currentProductId++ } else { this.currentProductId = 1 }
@@ -70,4 +71,5 @@ export default {
   margin: 50px auto;
   width: 50%;
 }
+
 </style>
