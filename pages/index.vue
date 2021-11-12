@@ -1,8 +1,9 @@
 <template>
 <div>
-  <Quizz />
+ <Quizz />
 </div>
 </template>
 
 <script>
+
 </script>

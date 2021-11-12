@@ -1,5 +1,8 @@
 <template>
-  <div class="containerWrapper">
+<div>
+    <h3> enter secret to start the game </h3>
+   <input  v-model="secretInput" type="text">
+  <div v-if="!checkSecret(secretInput)" class="containerWrapper">
     <div>
       <h1>Where does this item go..?</h1>
       <img :src="getImageUrl()" alt="Tirolmilch" height="320">
@@ -26,6 +29,7 @@
       oh no
     </h2>
   </div>
+  </div>
 </template>
 
 <script>
@@ -36,10 +40,16 @@ export default {
       products,
       selectedResponse: '',
       currentProductId: 1,
-      score: 0
+      score: 0,
+      secret: false,
+      secretInput: ''
     }
   },
   methods: {
+    checkSecret (value) {
+      if (value === 'lasagne') { return this.secret === true } else { return this.secret === false }
+    },
+
     getProductById () {
       return this.products.find(item => item.id === this.currentProductId)
     },
