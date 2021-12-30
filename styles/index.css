@@ -1,33 +1,58 @@
-h2 {
-  color: red;
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body{
+  font-family: 'Rubik', sans-serif;
+  background-color:#1a3c23;
+  color: #363131;
+}
+h1,h2,h3{
+  text-align: center;
 }
 
 button {
-  width: 100px;
+  width: 200px;
   height: 50px;
+  margin: 6px 6px;
   border-radius: 30px;
-  border: 1px solid gray;
-  background-color: #f1f1f1;
+  border: 1px solid #1a1818;
+  background-color: #fcfcfa;
   cursor: pointer;
+  font-weight: medium;
+  letter-spacing: 0.5px;
+  font-size:16px;
 }
 
 .glass {
-  background-color: green;
+  background-color: #1baa7d;
 }
 .paper {
-  background-color: red;
+  background-color: #ef81af;
 }
 .rest {
-  background-color: black;
-  color: white;
+  background-color: #070707;
+  color: #fcfcfa;
 }
 .plastic {
-  background-color: yellow;
+  background-color: #f7c709;
 }
 .metall {
-  background-color: blue;
-  color: white;
+  background-color: #142fe0;
+  color: #fcfcfa;
 }
 .bio {
-  background-color: brown;
+  background-color: #1a3c23;
+  color: #fcfcfa;
+
+}
+.correct{
+  color:hsl(136, 60%, 40%);
+}
+.wrong{
+  color:#d8075e;
+}
+.main{
+  color:#1a3c23;
+}
+
+.white{
+  color:white;
 }
