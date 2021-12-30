@@ -41,7 +41,9 @@ button {
 .bio {
   background-color: #1a3c23;
   color: #fcfcfa;
-
+}
+.sperr {
+  background-color: #fcfcfa;
 }
 .correct{
   color:hsl(136, 60%, 40%);

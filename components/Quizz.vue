@@ -7,14 +7,14 @@
   <div v-if="!checkSecret(secretInput)" class="containerWrapper">
     <div>
       <h2>Recycle me!</h2>
-      <h1 class="main"> {{ getProductById().name }}</h1>
+      <h1 class="main"> {{ this.currentProduct.name }}</h1>
     </div>
     <div>
       <img :src="getImageUrl()" alt="" class="imageItem">
     </div>
     <h2 class="correct" v-if="!gameOver">Score: {{ score }}</h2>
      <h2 class="wrong" v-if="gameOver">
-      Nop. Try again :)
+      Game Over. Try again!
     </h2>
     </h2>
     <div class="buttonWrapper">
@@ -36,19 +36,23 @@
        <button class="rest" @click="updateResponse('rest')">
         Restmüll
       </button>
+       <button class="sperr" @click="updateResponse('sperr')">
+        Sperrmüll
+      </button>
     </div>
   </div>
   </div>
 </template>
 
 <script>
-import { products } from '../static/constants.js'
+import * as products from '../static/products.json'
 export default {
   data () {
     return {
       products,
       selectedResponse: '',
       currentProductId: 1,
+      currentProduct: {},
       score: 0,
       secret: false,
       secretInput: '',
@@ -59,22 +63,28 @@ export default {
     checkSecret (value) {
       if (value === 'lasagne') { return this.secret === true } else { return this.secret === false }
     },
-    getProductById () {
-      return this.products.find(item => item.id === this.currentProductId)
+    getCurrentProduct () {
+      const currentProduct = this.products.default.find(item => item.id === this.currentProductId)
+      console.log('logprpducts', this.products.default)
+      this.currentProduct = currentProduct
+      return currentProduct
     },
     getImageUrl () {
-      return require(`../static/images/${this.currentProductId}.jpg`)
+      return require(`../static/images/${this.currentProduct.image}.jpg`)
     },
     updateResponse (value) {
       this.selectedResponse = value
       this.check()
     },
     check () {
-      if (this.products.find(item => item.id === this.currentProductId).recycle === this.selectedResponse) { this.score++; this.nextQuestion(); this.gameOver = false } else { this.score = 0; this.gameOver = true }
+      if (this.products.default.find(item => item.id === this.currentProductId).recycle === this.selectedResponse) { this.score++; this.nextQuestion(); this.gameOver = false } else { this.score = 0; this.gameOver = true }
     },
     nextQuestion () {
-      this.selectedResponse = ''; if (this.currentProductId < 4) { this.currentProductId++ } else { this.currentProductId = 1 }
+      this.selectedResponse = ''; if (this.currentProductId < 18) { this.currentProductId++; this.getCurrentProduct() } else { this.currentProductId = 1; this.getCurrentProduct() }
     }
+  },
+  created () {
+    this.getCurrentProduct()
   }
 }
 </script>
