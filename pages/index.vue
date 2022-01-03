@@ -10,5 +10,6 @@
 </script>
 
 <style>
+@import '../styles/index.css';
 
 </style>

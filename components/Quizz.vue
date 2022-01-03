@@ -16,7 +16,6 @@
      <h2 class="wrong" v-if="gameOver">
       Game Over. Try again!
     </h2>
-    </h2>
     <div class="buttonWrapper">
       <button class="bio" @click="updateResponse('Bioabfall')">
         Bioabfall

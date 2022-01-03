@@ -24,7 +24,8 @@ judith.kuneth@gmail.com<br/>
 
 </script>
 
-<style scoped>
+<style>
+@import '../styles/index.css';
 
 p{
   color: white;
