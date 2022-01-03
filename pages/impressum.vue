@@ -25,6 +25,7 @@ judith.kuneth@gmail.com<br/>
 </script>
 
 <style scoped>
+
 p{
   color: white;
 }
