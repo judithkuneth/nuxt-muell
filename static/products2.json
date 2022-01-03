@@ -1,0 +1,1026 @@
+[
+  {
+    "id": 1,
+    "name": "Milchverpackung",
+    "recycle": "Kunststoff",
+    "image": 1
+  },
+  {
+    "id": 2,
+    "name": "Teebeutel",
+    "recycle": "Restmüll",
+    "image": 2
+  },
+  {
+    "id": 3,
+    "name": "Weinflasche",
+    "recycle": "Altglas",
+    "image": 3
+  },
+  {
+    "id": 4,
+    "name": "Zeitung",
+    "recycle": "Papier",
+    "image": 4
+  },
+  {
+    "id": 5,
+    "name": "Klopapierrolle",
+    "recycle": "Papier",
+    "image": 5
+  },
+ {
+  "id": 6,
+  "name": "Akkus",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 7,
+  "name": "Holzwolle",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 8,
+  "name": "Alteisen",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 9,
+  "name": "Hygieneartikel",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 10,
+  "name": "Altholz",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 11,
+  "name": "Illustrierte",
+  "recycle": "Papier",
+  "tbd": null,
+  "image": 5
+ },
+ {
+  "id": 12,
+  "name": "Altöl",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 13,
+  "name": "Kaffeesatz und -filter",
+  "recycle": "Bioabfall",
+  "tbd": "Biotonne bei der Liegenschaft, Grünschnittsammelstelle Kranebitter Allee und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 14,
+  "name": "kaputtes (großes) Spielzeug",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Restmüllcontainer bei der Liegenschaft, Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 15,
+  "name": "kaputte Möbel",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 16,
+  "name": "Alufolien",
+  "recycle": "Metall",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 17,
+  "name": "kaputtes (kleines) Spielzeug",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft, Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 18,
+  "name": "Aluminiumgeschirr",
+  "recycle": "Metall",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 19,
+  "name": "Kataloge",
+  "recycle": "Papier",
+  "tbd": null,
+  "image": 5
+ },
+ {
+  "id": 20,
+  "name": "Asche von Kohleöfen",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 21,
+  "name": "Katzenstreu",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 22,
+  "name": "Äste und Zweige",
+  "recycle": "Bioabfall",
+  "tbd": "Biotonne bei der Liegenschaft, Recyclinghof Roßau und Grünschnittsammelstelle Kranebitterallee",
+  "image": 5
+ },
+ {
+  "id": 23,
+  "name": "Kehrricht",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 24,
+  "name": "Autobatterien",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 25,
+  "name": "Kerzenreste",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 26,
+  "name": "Autoreifen",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 27,
+  "name": "Kinderwagen",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 28,
+  "name": "Autositze",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 29,
+  "name": "Klarsichthüllen",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 30,
+  "name": "Backpapier",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 31,
+  "name": "Klebeband",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 32,
+  "name": "Batterien",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 33,
+  "name": "Kleber und Klebstoffe",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 34,
+  "name": "Becher für Milchprodukte",
+  "recycle": "Kunststoff",
+  "tbd": "Leichtverpackungsbehälter bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 35,
+  "name": "Kleiderbügel aus behandeltem Holz",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft, Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 36,
+  "name": "Becherdeckel für Milchprodukte aus Metall",
+  "recycle": "Metall",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 37,
+  "name": "Kleiderbügel aus Kunststoff",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft, Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 38,
+  "name": "Bekleidung (sofern nicht mehr tragbar und verschmutzt)",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 39,
+  "name": "Konservendosen",
+  "recycle": "Metall",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 40,
+  "name": "Bettfedern",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 41,
+  "name": "Korken",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 42,
+  "name": "Bettwäsche",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 43,
+  "name": "Kosmetika",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 44,
+  "name": "Blei- und Buntstifte",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 45,
+  "name": "Kosmetikfläschchen aus Glas",
+  "recycle": "Altglas",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 46,
+  "name": "Blumentöpfe aus Ton",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 47,
+  "name": "Kristallglas",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 48,
+  "name": "Bodenbeläge aus PVC",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 49,
+  "name": "Kronenkorken",
+  "recycle": "Metall",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 50,
+  "name": "Bücher",
+  "recycle": "Papier",
+  "tbd": "Papiercontainer bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 51,
+  "name": "Kunststofffolien Verpackung",
+  "recycle": "Kunststoff",
+  "tbd": "Leichtverpackungsbehälter bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 52,
+  "name": "Butterverpackungen",
+  "recycle": "Kunststoff",
+  "tbd": "Leichtverpackungsbehälter bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 53,
+  "name": "Lampen (Energiespar-, Halogendampf-, Leuchtstoff-)",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 54,
+  "name": "CDs",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 55,
+  "name": "Lampen (Glühbirnen und Halogenfadenlampen)",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 56,
+  "name": "Chemikalien",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 57,
+  "name": "Lebensmittel und Lebensmittelreste",
+  "recycle": "Bioabfall",
+  "tbd": "Biotonne bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 58,
+  "name": "Cremes und Salben in Kunststoffverpackung, entleert",
+  "recycle": "Kunststoff",
+  "tbd": "Leichtverpackungsbehälter bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 59,
+  "name": "Lebensmittelgläser",
+  "recycle": "Altglas",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 60,
+  "name": "Cremes und Salben mit Restinhalt",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 61,
+  "name": "Lederabfälle",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 62,
+  "name": "Desinfektionsmittel",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 63,
+  "name": "Linoleum",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 64,
+  "name": "Dias und Diafilm",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 65,
+  "name": "Lösungsmittel",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 66,
+  "name": "Draht",
+  "recycle": "Metall",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 67,
+  "name": "Matratzen",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 68,
+  "name": "Druckerpatronen",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 69,
+  "name": "Medikamente",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 70,
+  "name": "Durchschreibepapier",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 71,
+  "name": "Musik- und Videokassetten",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft, Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 72,
+  "name": "Eierschalen",
+  "recycle": "Bioabfall",
+  "tbd": "Biotonne bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 73,
+  "name": "Nagellack und -entferner",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 74,
+  "name": "Elektrogeräte",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 75,
+  "name": "Netzverpackung für Obst und Gemüse",
+  "recycle": "Kunststoff",
+  "tbd": "Leichtverpackungsbehälter bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 76,
+  "name": "Fahrrad",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 77,
+  "name": "Nitroverdünnung",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 78,
+  "name": "Farb- und Lackdosen (sofern spachtelrein und tropffrei)",
+  "recycle": "Metall",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 79,
+  "name": "Obst- und Gemüsereste",
+  "recycle": "Bioabfall",
+  "tbd": "Biotonne bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 80,
+  "name": "Farbdosen mit Restinhalt",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 81,
+  "name": "Papier, gewachst oder beschichtet",
+  "recycle": "Kunststoff",
+  "tbd": "Leichtverpackungsbehälter bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 82,
+  "name": "Farbdosen, pinselrein",
+  "recycle": "Metall",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 83,
+  "name": "Papier, sauber und unbeschichtet",
+  "recycle": "Papier",
+  "tbd": "Papiertonne bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 84,
+  "name": "Farben und Lacke",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 85,
+  "name": "Papier, stark verschmutzt",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 86,
+  "name": "Farbkübel aus Kunststoff, pinselrein",
+  "recycle": "Kunststoff",
+  "tbd": "Leichtverpackungsbehälter bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 87,
+  "name": "PET-Flaschen",
+  "recycle": "Kunststoff",
+  "tbd": "Leichtverpackungsbehälter bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 88,
+  "name": "Federn",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 89,
+  "name": "Porzellan und Keramik",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft, Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 90,
+  "name": "Fensterglas",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 91,
+  "name": "Postwurf",
+  "recycle": "Papier",
+  "tbd": "Papiertonne bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 92,
+  "name": "Fensterkuverts",
+  "recycle": "Papier",
+  "tbd": "Papiertonne bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 93,
+  "name": "Prospekte",
+  "recycle": "Papier",
+  "tbd": "Papiertonne bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 94,
+  "name": "Feuerzeug, restentleert",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 95,
+  "name": "Putzmittel- und Kosmetikleergebinde (ausgespült)",
+  "recycle": "Kunststoff",
+  "tbd": "Leichtverpackungsbehälter bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 96,
+  "name": "Fieberthermometer, elektrisch",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 97,
+  "name": "Quecksilber",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 98,
+  "name": "Fieberthermometer, mit Quecksilber",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 99,
+  "name": "Rexglas mit Glasdeckel",
+  "recycle": "Altglas",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 100,
+  "name": "Filme und Fotos",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 101,
+  "name": "Röntgenbilder",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 102,
+  "name": "Filzstifte (mit Lösungsmitteln)",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 103,
+  "name": "Säuren und Laugen",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 104,
+  "name": "Filzstifte (ohne Lösungsmittel)",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 105,
+  "name": "Schnittblumen",
+  "recycle": "Bioabfall",
+  "tbd": "Biotonne bei der Liegenschaft, Recyclinghof Roßau und Grünschnittsammelstelle Kranebitterallee",
+  "image": 5
+ },
+ {
+  "id": 106,
+  "name": "Flacons aus Glas",
+  "recycle": "Altglas",
+  "tbd": "Wertstoffsammelinel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 107,
+  "name": "Schrauben",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 108,
+  "name": "Fotochemikalien",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 109,
+  "name": "Schreibpapier",
+  "recycle": "Papier",
+  "tbd": "Papiertonne bei der Liegenschaft und Recyclinghof Roßau ",
+  "image": 5
+ },
+ {
+  "id": 110,
+  "name": "Gartenabfälle",
+  "recycle": "Bioabfall",
+  "tbd": "Biotonne bei der Liegenschaft, Grünschnittsammelstelle Kranebitter Allee und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 111,
+  "name": "Soda- und Schlagoberspatronen, restentleert",
+  "recycle": "Metall",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 112,
+  "name": "Gasflaschen",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Beim Händler abgeben.",
+  "image": 5
+ },
+ {
+  "id": 113,
+  "name": "Sportgeräte",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 114,
+  "name": "Gaskartuschen mit Restinhalt",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Beim Händler abgeben.",
+  "image": 5
+ },
+ {
+  "id": 115,
+  "name": "Spraydosen, mit Restinhalt",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 116,
+  "name": "Gaskartuschen, restentleert",
+  "recycle": "Metall",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 117,
+  "name": "Spraydosen, restentleert und druckgasfrei",
+  "recycle": "Metall",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 118,
+  "name": "Gerätebatterien",
+  "recycle": "Problemstoffsammlung",
+  "tbd": "Recyclinghof Roßau und Mobile Problemstoffsammlung",
+  "image": 5
+ },
+ {
+  "id": 119,
+  "name": "Staubsaugerbeutel",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 120,
+  "name": "Geschirr aus Glas, Kunststoff oder Porzellan",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 121,
+  "name": "Stoffreste",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 122,
+  "name": "Geschirr aus Metall",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 123,
+  "name": "Strumpfhosen",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 124,
+  "name": "Getränkedosen",
+  "recycle": "Metall",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 125,
+  "name": "Styropor für Verpackungen",
+  "recycle": "Kunststoff",
+  "tbd": "Leichtverpackungsbehälter bei der Liegenschaft und Recyclinghof Roß",
+  "image": 5
+ },
+ {
+  "id": 126,
+  "name": "Getränkeverschlusskappen",
+  "recycle": "Metall",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 127,
+  "name": "Tablettenverpackungen",
+  "recycle": "Kunststoff",
+  "tbd": "Leichtverpackungsbehälter bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 128,
+  "name": "Glasampullen",
+  "recycle": "Altglas",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 129,
+  "name": "Teesatz (ohne Beutel)",
+  "recycle": "Bioabfall",
+  "tbd": "Biotonne bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 130,
+  "name": "Glasflaschen",
+  "recycle": "Altglas",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 131,
+  "name": "Teppiche",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 132,
+  "name": "Glühbirnen",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 133,
+  "name": "Tetrapack",
+  "recycle": "Kunststoff",
+  "tbd": "Leichtverpackungsbehälter bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 134,
+  "name": "Grasschnitt",
+  "recycle": "Bioabfall",
+  "tbd": "Biotonne bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 135,
+  "name": "Töpfe und Pfannen",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 136,
+  "name": "Gummiabfälle",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 137,
+  "name": "Verpackungen(Kaffee, Getränke, Tiefkühlartikel, Vakuum)",
+  "recycle": "Kunststoff",
+  "tbd": "Leichtverpackungsbehälter bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 138,
+  "name": "Haare",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 139,
+  "name": "Wachs",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 140,
+  "name": "Handys, Smartphones, Mobiltelefone",
+  "recycle": "Sperrmüll/Anderes",
+  "tbd": "Recyclinghof Roßau und Mobile Sperrmüllsammlung",
+  "image": 5
+ },
+ {
+  "id": 141,
+  "name": "Wegwerfwindeln",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 142,
+  "name": "Hefte",
+  "recycle": "Papier",
+  "tbd": "Papiertonne bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 143,
+  "name": "Weißblechdosen",
+  "recycle": "Metall",
+  "tbd": "Wertstoffsammelinsel und Recyclinghof Roßau",
+  "image": 5
+ },
+ {
+  "id": 144,
+  "name": "Holzkohle und -asche",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 145,
+  "name": "Zahnbürsten",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 146,
+  "name": "Zigarettenstummel",
+  "recycle": "Restmüll",
+  "tbd": "Restmüllcontainer bei der Liegenschaft",
+  "image": 5
+ },
+ {
+  "id": 147,
+  "name": "Zeitungen",
+  "recycle": "Papier",
+  "tbd": "Papiertonne bei der Liegenschaft und Recyclinghof Roßau",
+  "image": 5
+ }
+]

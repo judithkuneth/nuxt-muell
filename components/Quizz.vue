@@ -1,10 +1,10 @@
 <template>
 <div>
-  <div v-if="checkSecret(secretInput)">
+  <div v-if="!checkSecret(secretInput)">
     <p class="white"> enter secret to start the game </p>
    <input  v-model="secretInput" type="text">
    </div>
-  <div v-if="!checkSecret(secretInput)" class="containerWrapper">
+  <div v-if="checkSecret(secretInput)" class="containerWrapper">
     <div>
       <h2>Recycle me!</h2>
       <h1 class="main"> {{ this.currentProduct.name }}</h1>
@@ -12,32 +12,35 @@
     <div>
       <img :src="getImageUrl()" alt="" class="imageItem">
     </div>
-    <h2 class="correct" v-if="!gameOver">Score: {{ score }}</h2>
+    <p v-if="!gameOver">Score: <span class="h1 correct">{{ score }}</span></p>
      <h2 class="wrong" v-if="gameOver">
       Game Over. Try again!
     </h2>
     </h2>
     <div class="buttonWrapper">
-      <button class="bio" @click="updateResponse('bio')">
-        Bio
+      <button class="bio" @click="updateResponse('Bioabfall')">
+        Bioabfall
       </button>
-      <button class="plastic" @click="updateResponse('plastic')">
-        Plastik
+      <button class="plastic" @click="updateResponse('Kunststoff')">
+        Kunststoff
       </button>
-      <button class="metall" @click="updateResponse('metall')">
+      <button class="metall" @click="updateResponse('Metall')">
         Metall
       </button>
-      <button class="glass" @click="updateResponse('glas')">
-        Glas
+      <button class="glass" @click="updateResponse('Altglas')">
+        Altglas
       </button>
-      <button class="paper" @click="updateResponse('papier')">
+      <button class="paper" @click="updateResponse('Papier')">
         Papier
       </button>
-       <button class="rest" @click="updateResponse('rest')">
+       <button class="rest" @click="updateResponse('Restmüll')">
         Restmüll
       </button>
-       <button class="sperr" @click="updateResponse('sperr')">
-        Sperrmüll
+      <button class="problem" @click="updateResponse('Problemstoffsammlung')">
+        Problemstoffsammlung
+      </button>
+       <button class="sperr" @click="updateResponse('Sperrmüll/Anderes')">
+        Anderes/Sperrmüll
       </button>
     </div>
   </div>
@@ -45,7 +48,8 @@
 </template>
 
 <script>
-import * as products from '../static/products.json'
+import * as products from '../static/products2.json'
+
 export default {
   data () {
     return {
@@ -65,7 +69,6 @@ export default {
     },
     getCurrentProduct () {
       const currentProduct = this.products.default.find(item => item.id === this.currentProductId)
-      console.log('logprpducts', this.products.default)
       this.currentProduct = currentProduct
       return currentProduct
     },
@@ -80,17 +83,17 @@ export default {
       if (this.products.default.find(item => item.id === this.currentProductId).recycle === this.selectedResponse) { this.score++; this.nextQuestion(); this.gameOver = false } else { this.score = 0; this.gameOver = true }
     },
     nextQuestion () {
-      this.selectedResponse = ''; if (this.currentProductId < 18) { this.currentProductId++; this.getCurrentProduct() } else { this.currentProductId = 1; this.getCurrentProduct() }
+      this.selectedResponse = ''; if (this.currentProductId < 147) { this.currentProductId++; this.getCurrentProduct() } else { this.currentProductId = 1; this.getCurrentProduct() }
     }
   },
   created () {
     this.getCurrentProduct()
   }
 }
+
 </script>
 
 <style>
-@import '../styles/index.css';
 
 .containerWrapper{
   display:flex;

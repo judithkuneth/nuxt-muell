@@ -8,6 +8,13 @@ h1,h2,h3{
   text-align: center;
 }
 
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.h1{font-size:48px}
+
 button {
   width: 200px;
   height: 50px;
@@ -57,4 +64,8 @@ button {
 
 .white{
   color:white;
+}
+.problem{
+  background-color: white;
+  border: 2px solid #deeb30;
 }
