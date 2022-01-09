@@ -87,6 +87,11 @@ export default {
   },
   created () {
     this.getCurrentProduct()
+    // ASYNC AXIOS here
+  },
+
+  mounted () {
+    // after DOM
   }
 }
 
