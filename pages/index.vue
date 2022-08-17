@@ -1,15 +1,13 @@
 <template>
-<div>
- <Quizz />
-<Footer/>
-</div>
+  <div>
+    <Quizz />
+    <Footer />
+  </div>
 </template>
 
 <script>
-
 </script>
 
 <style>
-@import '../styles/index.css';
-
+@import "../styles/index.css";
 </style>
