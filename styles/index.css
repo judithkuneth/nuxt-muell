@@ -1,71 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 body{
   font-family: 'Rubik', sans-serif;
-  background-color:#1a3c23;
+  background:conic-gradient(from 179.88deg at 49.92% 61.08%, #58B368 -2.12deg, #454D66 128.44deg, #58B368 357.88deg, #454D66 488.44deg);
   color: #363131;
 }
-h1,h2,h3{
-  text-align: center;
-}
+
 
 a{
-  color: white;
+  color: #363131;
   text-decoration: none;
 }
+p{
+  margin: 4px 4px
+}
+h1,h2,h3{
+  color: #363131;
+  margin-bottom: 8px
+}
 
-.h1{font-size:48px}
+
+h2{
+  font-weight:500;
+}
 
 button {
   width: 200px;
   height: 50px;
   margin: 6px 6px;
-  border-radius: 30px;
-  border: 1px solid #1a1818;
-  background-color: #fcfcfa;
+  border-radius: 10px;
+  /* border: 1px solid #1a1818; */
+  /* background-color: #fdbcd7;
+  color: #363131; */
   cursor: pointer;
   font-weight: medium;
   letter-spacing: 0.5px;
   font-size:16px;
+  border:none;
 }
 
-.glass {
-  background-color: #1baa7d;
+
+.bio {
+  background-color: #58B368;
+  color: #fcfcfa;
 }
 .paper {
-  background-color: #ef81af;
+  background-color: #EFEEB4;
+  color: #363131;
 }
 .rest {
-  background-color: #070707;
+  background-color: #454D66;
   color: #fcfcfa;
 }
 .plastic {
-  background-color: #f7c709;
+  background-color: #DAD873;
+  color: #363131;
 }
 .metall {
-  background-color: #142fe0;
+  background-color: #394C86;
   color: #fcfcfa;
 }
-.bio {
-  background-color: #1a3c23;
+.glass {
+  background-color: #309975;
   color: #fcfcfa;
 }
-.sperr {
+.other {
   background-color: #fcfcfa;
+  color: #454D66;
 }
 .correct{
-  color:hsl(136, 60%, 40%);
+  color:#309975;
 }
 .wrong{
   color:#d8075e;
 }
-.main{
-  color:#1a3c23;
+.blue{
+  color: #394C86
 }
 
 .white{
   color:white;
 }
+.rosa{
+  color: #fdbcd7;
+}
 .problem{
+  background-color: #866139;
+  color: #fcfcfa}
+.white-yellow{
   background-color: white;
   border: 2px solid #deeb30;
 }

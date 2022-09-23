@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Header />
     <Quizz />
     <Footer />
   </div>

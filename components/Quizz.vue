@@ -2,8 +2,8 @@
   <div>
     <div class="containerWrapper">
       <div>
-        <h2>Recycle me!</h2>
-        <h1 class="main">{{ currentProduct.name }}</h1>
+        <h2 style="margin-bottom: 8px">Recycle me</h2>
+        <h1 style="margin-top: 4px">{{ currentProduct.name }}</h1>
       </div>
       <div>
         <img
@@ -12,32 +12,20 @@
           alt=""
           class="imageItem"
         />
-        <p v-else class="noImage">Sorry, davon gibt es noch kein Bild</p>
+        <p v-else class="noImage">{{ imageNotAvailable() }}</p>
       </div>
       <p v-if="!gameOver">
         Score: <span class="h1 correct">{{ score }}</span>
       </p>
       <h2 v-if="gameOver" class="wrong">Game Over. Try again!</h2>
       <div class="buttonWrapper">
-        <button class="bio" @click="submitResponse('Bioabfall')">
-          Bioabfall
-        </button>
-        <button class="plastic" @click="submitResponse('Kunststoff')">
-          Kunststoff
-        </button>
-        <button class="metall" @click="submitResponse('Metall')">Metall</button>
-        <button class="glass" @click="submitResponse('Altglas')">
-          Altglas
-        </button>
-        <button class="paper" @click="submitResponse('Papier')">Papier</button>
-        <button class="rest" @click="submitResponse('Restmüll')">
-          Restmüll
-        </button>
-        <button class="problem" @click="submitResponse('Problemstoffsammlung')">
-          Problemstoff
-        </button>
-        <button class="sperr" @click="submitResponse('Sperrmüll/Anderes')">
-          Anderes
+        <button
+          v-for="(button, index) in buttons"
+          :key="index"
+          :class="button.style"
+          @click="submitResponse(button.response)"
+        >
+          {{ button.label }}
         </button>
       </div>
     </div>
@@ -54,6 +42,64 @@ export default {
       currentProductId: 1,
       score: 0,
       gameOver: false,
+      buttons: [
+        {
+          label: "Restmüll",
+          style: "rest",
+          response: "Restmüll",
+        },
+        {
+          label: "Metall",
+          style: "metall",
+          response: "Metall",
+        },
+
+        {
+          label: "Glas",
+          style: "glass",
+          response: "Altglas",
+        },
+        {
+          label: "Bio",
+          style: "bio",
+          response: "Bioabfall",
+        },
+        {
+          label: "Kunststoff",
+          style: "plastic",
+          response: "Kunststoff",
+        },
+
+        {
+          label: "Papier",
+          style: "paper",
+          response: "Papier",
+        },
+
+        {
+          label: "Problemstoff",
+          style: "problem",
+          response: "Problemstoffsammlung",
+        },
+        {
+          label: "Anderes",
+          style: "other",
+          response: "Sperrmüll/Anderes",
+        },
+      ],
+      categories: {
+        bio: "Bio",
+        plastic: "Kunststoff",
+        metall: "Metall",
+        glas: "Glas",
+        paper: "Papier",
+        rest: "Restmüll",
+        problem: "Problemstoff",
+        other: "Anderes",
+      },
+      imageNotAvailable: () => {
+        return "Sorry, davon gibt es noch kein Bild";
+      },
     };
   },
   computed: {
@@ -100,6 +146,7 @@ export default {
 <style>
 .containerWrapper {
   display: flex;
+  text-align: center;
   flex-direction: column;
   align-items: center;
   margin: 50px auto;
@@ -134,7 +181,7 @@ export default {
     width: 30%;
   }
   .imageItem {
-    height: 250px;
+    height: 200px;
   }
 }
 </style>
