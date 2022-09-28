@@ -109,7 +109,7 @@ export default {
       );
     },
     getCurrentImageUrl() {
-      return require(`../static/images/${this.currentProduct.image}.jpg`);
+      return require(`../static/images/${this.currentProduct.image}.svg`);
     },
   },
   created() {
