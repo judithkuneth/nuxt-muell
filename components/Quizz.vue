@@ -184,4 +184,9 @@ export default {
     height: 200px;
   }
 }
+@media (max-width: 350px) {
+  .imageItem {
+    height: 150px;
+  }
+}
 </style>
