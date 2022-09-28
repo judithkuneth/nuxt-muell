@@ -18,16 +18,19 @@
         Score: <span class="h1 correct">{{ score }}</span>
       </p>
       <h2 v-if="gameOver" class="wrong">Game Over. Try again!</h2>
-      <div class="buttonWrapper">
-        <button
-          v-for="(button, index) in buttons"
-          :key="index"
-          :class="button.style"
-          @click="submitResponse(button.response)"
-        >
-          {{ button.label }}
-        </button>
+      <div v-if="showAnswer">
+        <p>Probier's mal beim {{ currentProduct.recycle }}</p>
       </div>
+      <buttons
+        :buttons="buttons"
+        :submitResponse="submitResponse"
+        @show-the-answer="showAnswerTrue"
+      ></buttons>
+      <!-- <buttons
+        :buttons="buttons"
+        @show-the-answer="showAnswerTrue"
+        @emit-response="submitResponse($event)"
+      ></buttons> -->
     </div>
   </div>
 </template>
@@ -42,6 +45,7 @@ export default {
       currentProductId: 1,
       score: 0,
       gameOver: false,
+      showAnswer: false,
       buttons: [
         {
           label: "Restmüll",
@@ -87,16 +91,6 @@ export default {
           response: "Sperrmüll/Anderes",
         },
       ],
-      categories: {
-        bio: "Bio",
-        plastic: "Kunststoff",
-        metall: "Metall",
-        glas: "Glas",
-        paper: "Papier",
-        rest: "Restmüll",
-        problem: "Problemstoff",
-        other: "Anderes",
-      },
       imageNotAvailable: () => {
         return "Sorry, davon gibt es noch kein Bild";
       },
@@ -120,6 +114,7 @@ export default {
   },
   methods: {
     submitResponse(value) {
+      this.showAnswer = false;
       if (
         this.products.default.find((item) => item.id === this.currentProductId)
           .recycle === value
@@ -139,11 +134,17 @@ export default {
         this.currentProductId = 1;
       }
     },
+    showAnswerTrue() {
+      this.showAnswer = true;
+      setTimeout(() => {
+        this.showAnswer = false;
+      }, 3000);
+    },
   },
 };
 </script>
 
-<style>
+<style lang="scss">
 .containerWrapper {
   display: flex;
   text-align: center;
@@ -163,14 +164,6 @@ export default {
   margin: 0px 0px;
   font-size: 14px;
   color: #d7d8d8;
-}
-
-.buttonWrapper {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 20px 200px;
-  width: 100%;
 }
 
 @media (max-width: 900px) {

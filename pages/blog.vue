@@ -51,7 +51,7 @@ export default {
 };
 </script>
 <style>
-@import "../styles/index.css";
+@import "../styles/index.scss";
 .blogWrapper {
   display: flex;
   flex-direction: column;

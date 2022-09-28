@@ -8,7 +8,7 @@
 <script>
 </script>
 
-<style>
+<style lang="scss">
 .footerStyles {
   font-size: 12px;
   position: relative;
