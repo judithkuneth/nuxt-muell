@@ -1,0 +1,194 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "prices": [
+    {
+      "id": 1,
+      "productId": "1",
+      "marketId": "1",
+      "price": "4.90"
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "price": "6",
+      "id": 4
+    },
+    {
+      "price": "3",
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "productId": 5,
+      "marketId": 3,
+      "price": "4",
+      "id": 7
+    },
+    {
+      "productId": 5,
+      "marketId": 2,
+      "price": "6",
+      "id": 8
+    },
+    {
+      "productId": 5,
+      "marketId": 2,
+      "price": "676",
+      "id": 9
+    },
+    {
+      "marketId": 2,
+      "productId": 4,
+      "price": "234",
+      "id": 10
+    },
+    {
+      "marketId": 4,
+      "price": "3",
+      "productId": 4,
+      "id": 11
+    },
+    {
+      "marketId": 4,
+      "price": "",
+      "productId": 4,
+      "id": 12
+    },
+    {
+      "price": "4",
+      "marketId": 2,
+      "productId": 4,
+      "id": 13
+    },
+    {
+      "price": "4",
+      "marketId": 2,
+      "productId": 4,
+      "id": 14
+    },
+    {
+      "marketId": 2,
+      "productId": 6,
+      "price": "54",
+      "id": 15
+    },
+    {
+      "price": "5",
+      "marketId": 2,
+      "productId": 4,
+      "id": 16
+    },
+    {
+      "productId": 4,
+      "marketId": 3,
+      "price": "3",
+      "id": 17
+    },
+    {
+      "productId": 7,
+      "marketId": 1,
+      "price": "30",
+      "id": 18
+    },
+    {
+      "productId": 6,
+      "marketId": 1,
+      "price": "13",
+      "id": 19
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Haferflocken",
+      "unit": "kg"
+    },
+    {
+      "title": "Äpfel",
+      "unit": "kg",
+      "id": 4
+    },
+    {
+      "title": "Birnen",
+      "unit": "kg",
+      "id": 5
+    },
+    {
+      "title": "Rosinen",
+      "unit": "kg",
+      "id": 6
+    },
+    {
+      "title": "Nüsse",
+      "unit": "kg",
+      "id": 7
+    },
+    {
+      "title": "Zwetsche",
+      "unit": "g",
+      "id": 8
+    }
+  ],
+  "markets": [
+    {
+      "id": 1,
+      "name": "Greenroot",
+      "type": "1"
+    },
+    {
+      "name": "Hofer",
+      "type": 3,
+      "id": 2
+    },
+    {
+      "name": "Spar",
+      "type": 4,
+      "id": 3
+    },
+    {
+      "name": "Markthalle",
+      "type": 2,
+      "id": 4
+    }
+  ],
+  "markettypes": [
+    {
+      "id": 1,
+      "title": "Unverpackt"
+    },
+    {
+      "id": 2,
+      "title": "Market"
+    },
+    {
+      "id": 3,
+      "title": "Discounter"
+    },
+    {
+      "id": 4,
+      "title": "Supermarket"
+    }
+  ]
+}

@@ -5,22 +5,39 @@ body{
   height: 1200px;  color: #363131;
 }
 
-
-a{
-  color: #363131;
-  text-decoration: none;
-}
-p{
-  margin: 4px 4px
-}
 h1,h2,h3{
   color: #363131;
   margin-bottom: 8px
 }
 
+a{
+  color: #363131;
+  text-decoration: none;
+  font-weight: 600;
+}
+p{
+  margin: 4px 4px
+}
 
-h2{
+$base-color: #c6538c;
+
+h2,h3{
   font-weight:500;
+}
+
+input {
+  border:none;
+  border-bottom: 1px solid black;
+  margin: 5px 5px;
+  width:50%;
+  max-width: 200px;
+  height: 25px;
+  border-radius: 5px 5px 0px 0px;
+}
+.input-small {
+  width: 30px;
+  font-size: medium;
+  text-align: center;
 }
 
 button {
@@ -42,12 +59,19 @@ button {
   height: 50px;
 }
 
+.tagInput {
+  width: 200px;
+  margin: 6px 6px;
+  padding: 6px 6px;
+  border-radius: 10px;
+  background-color: lightgrey;
+}
 
 .bio {
   background-color: #58B368;
   color: #fcfcfa;
 }
-.paper {
+.paper,.selected {
   background-color: #EFEEB4;
   color: #363131;
 }
