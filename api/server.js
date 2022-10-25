@@ -8,6 +8,7 @@ const marketRouter = require("../routes/marketRoutes");
 const marketTypeRouter = require("../routes/marketTypeRoutes");
 require("dotenv").config();
 
+process.env.CORS_ORIGIN = "https://myfoodbasket.herokuapp.com";
 // cors; http://localhost:3000
 const corsOptions = {
   origin: process.env.CORS_ORIGIN,
@@ -32,6 +33,7 @@ app.get("/", function (req, res, next) {
 });
 
 // app.listen(app.listen(process.env.PORT || 3000));
+console.log("process.env!!!!!!", process.env.CORS_ORIGIN);
 
 app.listen(process.env.PORT, function () {
   console.log("CORS-enabled web server listening on port 3002");
