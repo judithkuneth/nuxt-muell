@@ -33,10 +33,11 @@ app.get("/", function (req, res, next) {
 });
 
 // app.listen(app.listen(process.env.PORT || 3000));
-console.log("process.env!!!!!!", process.env.CORS_ORIGIN);
+console.log("process.env.PORT!!!!!!", process.env.PORT);
+console.log("process.env.DB_URI!!!!!!", process.env.DB_URI);
 
 app.listen(process.env.PORT, function () {
-  console.log("CORS-enabled web server listening on port 3002");
+  console.log("CORS-enabled web server listening on port ", process.env.PORT);
 });
 
 // app.listen(3002, () => {
