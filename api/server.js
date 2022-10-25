@@ -8,9 +8,9 @@ const marketRouter = require("../routes/marketRoutes");
 const marketTypeRouter = require("../routes/marketTypeRoutes");
 require("dotenv").config();
 
-// cors;
+// cors; http://localhost:3000
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://myfoodbasket.herokuapp.com",
 };
 
 const app = express();
@@ -27,9 +27,12 @@ mongoose.connect(process.env.DB_URI, {
 
 app.use(foodRouter, productRouter, priceRouter, marketRouter, marketTypeRouter);
 
-app.get("http://localhost:3002/", function (req, res, next) {
-  res.json({ msg: "This is CORS-enabled for all origins!" });
-});
+app.get(
+  `http://localhost:${process.env.PORT || 3002}/`,
+  function (req, res, next) {
+    res.json({ msg: "This is CORS-enabled for all origins!" });
+  }
+);
 
 // app.listen(app.listen(process.env.PORT || 3000));
 
