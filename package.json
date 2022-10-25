@@ -44,5 +44,8 @@
     "vue-eslint-parser": "^9.0.3",
     "vue-jest": "^3.0.4",
     "webpack": "^4.0.0"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
