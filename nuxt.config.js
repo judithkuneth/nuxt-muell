@@ -1,4 +1,4 @@
-let development = process.env.NODE_ENV !== "production";
+const production = process.env.NODE_ENV !== "development";
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -53,9 +53,9 @@ export default {
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
 
   axios: {
-    baseURL: development
-      ? "http://localhost:3000"
-      : "https://myfoodbasket.herokuapp.com",
+    baseURL: production
+      ? "https://myfoodbasket.herokuapp.com"
+      : "http://localhost:3000",
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
