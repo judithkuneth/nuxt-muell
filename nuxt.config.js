@@ -51,11 +51,8 @@ export default {
   //   "/api": "~/api",
   // },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-
   axios: {
-    baseURL: production
-      ? "https://myfoodbasket.herokuapp.com"
-      : "http://localhost:3000",
+    baseURL: "https://myfoodbasket.herokuapp.com",
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa

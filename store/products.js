@@ -12,7 +12,7 @@ export const getters = {
   getProducts(state) {
     console.log("state.products", state.products);
     console.log("PORT", process.env.PORT);
-    console.log("DB_URI", process.env.DB_URI);
+    console.log("CORS_ORIGIN", process.env.CORS_ORIGIN);
     return state.products;
   },
   getCurrentProduct(state) {
