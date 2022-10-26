@@ -11,7 +11,7 @@ require("dotenv").config();
 process.env.CORS_ORIGIN = "https://myfoodbasket.herokuapp.com";
 // cors; http://localhost:3000
 const corsOptions = {
-  origin: process.env.CORS_ORIGIN,
+  origin: process.env.CORS_ORIGIN || 3002,
 };
 
 const app = express();
@@ -20,7 +20,7 @@ app.use(express.json());
 // app.options("*", cors()); // include before other routes
 app.use(cors(corsOptions));
 
-mongoose.connect(process.env.DB_URI, {
+mongoose.connect(process.env.CORS_ORIGIN, {
   useNewUrlParser: true,
   // useFindAndModify: false,
   useUnifiedTopology: true,
@@ -35,8 +35,9 @@ app.get("/", function (req, res, next) {
 // app.listen(app.listen(process.env.PORT || 3000));
 console.log("process.env.PORT!!!!!!", process.env.PORT);
 console.log("process.env.DB_URI!!!!!!", process.env.DB_URI);
+console.log("process.env.cORS_ORIGIN!!!!!!", process.env.CORS_ORIGIN);
 
-app.listen(process.env.PORT, function () {
+app.listen(process.env.PORT || 3002, function () {
   console.log("CORS-enabled web server listening on port ", process.env.PORT);
 });
 
