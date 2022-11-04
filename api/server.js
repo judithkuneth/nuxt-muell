@@ -8,12 +8,13 @@ const marketRouter = require("../routes/marketRoutes");
 const marketTypeRouter = require("../routes/marketTypeRoutes");
 require("dotenv").config();
 
-// process.env.CORS_ORIGIN = "https://myfoodbasket.herokuapp.com";
-
 const corsOptions = {
-  origin: process.env.CORS_ORIGIN || 3002,
+  origin: process.env.CORS_ORIGIN,
 };
 
+// const corsOptions = {
+//   origin: 3002,
+// };
 const app = express();
 
 app.use(express.json());
