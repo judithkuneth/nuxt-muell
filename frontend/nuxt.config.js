@@ -1,5 +1,3 @@
-const production = process.env.NODE_ENV !== "development";
-
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
