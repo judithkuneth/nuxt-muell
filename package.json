@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "main": "index.js",
-    "start": "node app/server.js"
+    "start": "node frontend/app/server.js"
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
