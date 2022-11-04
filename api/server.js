@@ -12,6 +12,7 @@ const corsOptions = {
   origin: process.env.CORS_ORIGIN || 3002,
 };
 
+console.log("starting server.js....");
 const app = express();
 
 app.use(express.json());
@@ -33,7 +34,7 @@ app.get("/", function (req, res, next) {
 app.listen(process.env.PORT || 3002, function () {
   console.log(
     "CORS-enabled web server listening on port ",
-    process.env.PORT || 3002
+    process.env.PORT || "default:3002"
   );
 });
 
