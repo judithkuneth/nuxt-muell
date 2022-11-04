@@ -18,13 +18,7 @@
       new Image {{ New Image }}
     </button> -->
       </div>
-      <div class="blogPostWrapper">
-        <h2>JSON Server</h2>
-        <p>lets you test your REST Api super easy and fast</p>
-        <br />
-        <!-- <RestApi /> -->
-        <MongoDb />
-      </div>
+
       <div class="blogPostWrapper">
         <h2>Cool CSS loaders</h2>
         <CssLoaders />

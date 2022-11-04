@@ -9,12 +9,9 @@ const marketTypeRouter = require("../routes/marketTypeRoutes");
 require("dotenv").config();
 
 const corsOptions = {
-  origin: process.env.CORS_ORIGIN,
+  origin: process.env.CORS_ORIGIN || 3002,
 };
 
-// const corsOptions = {
-//   origin: 3002,
-// };
 const app = express();
 
 app.use(express.json());
@@ -34,7 +31,10 @@ app.get("/", function (req, res, next) {
 });
 
 app.listen(process.env.PORT || 3002, function () {
-  console.log("CORS-enabled web server listening on port ", process.env.PORT);
+  console.log(
+    "CORS-enabled web server listening on port ",
+    process.env.PORT || 3002
+  );
 });
 
 // app.listen(3002, () => {

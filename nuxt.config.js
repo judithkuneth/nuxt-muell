@@ -67,7 +67,4 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-  env: {
-    baseURL: "https://myfoodbasket.herokuapp.com/",
-  },
 };

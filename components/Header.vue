@@ -1,6 +1,9 @@
 <template>
   <div class="headerStyles">
     <nuxt-link to="/">Home</nuxt-link>
+    <div>
+      <nuxt-link to="/prices">Prices</nuxt-link>
+    </div>
     <nav class="navStyles">
       <nuxt-link to="/blog">Blog</nuxt-link>
       <nuxt-link v-if="!getAuth" to="/auth">Signup/Login</nuxt-link>
