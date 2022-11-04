@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "https://myfoodbasket-be.herokuapp.com/";
+const baseUrl = "https://myfoodbasket-be.herokuapp.com";
 // http://localhost:3002
 export const state = () => ({
   currentProduct: { productId: "", title: "", unit: "" },
