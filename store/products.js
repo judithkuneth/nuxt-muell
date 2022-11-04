@@ -94,7 +94,7 @@ export const actions = {
   // Products
   getProductsFromMongoDb({ commit }) {
     axios
-      .get("http://localhost:3002/products")
+      .get("/products")
       .then((res) => {
         console.log(res);
         commit("updateProducts", res.data);
