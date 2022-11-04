@@ -50,7 +50,7 @@ export default {
   // },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: "https://myfoodbasket.herokuapp.com",
+    baseURL: "https://myfoodbasket-be.herokuapp.com",
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa

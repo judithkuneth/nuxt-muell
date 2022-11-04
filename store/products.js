@@ -1,4 +1,6 @@
 import axios from "axios";
+const baseUrl = "https://myfoodbasket-be.herokuapp.com/";
+// http://localhost:3002
 export const state = () => ({
   currentProduct: { productId: "", title: "", unit: "" },
   currentPrice: { price: null, productId: "", marketId: "" },
@@ -94,7 +96,7 @@ export const actions = {
   // Products
   getProductsFromMongoDb({ commit }) {
     axios
-      .get("http://localhost:3002/products")
+      .get(`${baseUrl}/products`)
       .then((res) => {
         console.log(res);
         commit("updateProducts", res.data);
@@ -105,7 +107,7 @@ export const actions = {
   },
   addProductToMongoDb(context, product) {
     axios
-      .post("http://localhost:3002/product", product)
+      .post(`${baseUrl}/product`, product)
       .then((res) => {
         console.log("added Product ToMongoDb", res);
         context.dispatch("getProductsFromMongoDb");
@@ -118,7 +120,7 @@ export const actions = {
   },
   updateProductFromMongoDb(context, payload) {
     axios
-      .patch(`http://localhost:3002/product/${payload.id}`, payload.data)
+      .patch(`${baseUrl}/product/${payload.id}`, payload.data)
       .then((res) => {
         console.log("added Product ToMongoDb", res);
         context.dispatch("getProductsFromMongoDb");
@@ -132,7 +134,7 @@ export const actions = {
   },
   deleteProductFromMongoDb(context, id) {
     axios
-      .delete(`http://localhost:3002/product/${id}`)
+      .delete(`${baseUrl}/product/${id}`)
       .then((res) => {
         console.log("deleted Product ToMongoDb", res);
         context.dispatch("getProductsFromMongoDb");
@@ -145,7 +147,7 @@ export const actions = {
   // Prices
   getPricesFromMongoDb({ commit }) {
     axios
-      .get("http://localhost:3002/prices")
+      .get(`${baseUrl}/prices`)
       .then((res) => {
         console.log(res);
         commit("updatePrices", res.data);
@@ -156,7 +158,7 @@ export const actions = {
   },
   addPriceToMongoDb(context, price) {
     axios
-      .post("http://localhost:3002/price", price)
+      .post(`${baseUrl}/price`, price)
       .then((res) => {
         console.log("added Price ToMongoDb", res);
         context.dispatch("getPricesFromMongoDb");
@@ -168,7 +170,7 @@ export const actions = {
   },
   updatePriceFromMongoDb(context, payload) {
     axios
-      .patch(`http://localhost:3002/price/${payload.id}`, payload.data)
+      .patch(`${baseUrl}/price/${payload.id}`, payload.data)
       .then((res) => {
         console.log("added Price ToMongoDb", res);
         context.dispatch("getPricesFromMongoDb");
@@ -181,7 +183,7 @@ export const actions = {
   },
   deletePriceFromMongoDb(context, id) {
     axios
-      .delete(`http://localhost:3002/price/${id}`)
+      .delete(`${baseUrl}/price/${id}`)
       .then((res) => {
         console.log("deleted Price ToMongoDb", res);
         context.dispatch("getPricesFromMongoDb");
@@ -194,7 +196,7 @@ export const actions = {
   // Markets
   getMarketsFromMongoDb({ commit }) {
     axios
-      .get("http://localhost:3002/markets")
+      .get(`${baseUrl}/markets`)
       .then((res) => {
         console.log(res);
         commit("updateMarkets", res.data);
@@ -205,7 +207,7 @@ export const actions = {
   },
   addMarketToMongoDb(context, market) {
     axios
-      .post("http://localhost:3002/market", market)
+      .post(`${baseUrl}/market`, market)
       .then((res) => {
         console.log("added Market ToMongoDb", res);
         context.dispatch("getMarketsFromMongoDb");
@@ -216,7 +218,7 @@ export const actions = {
   },
   updateMarketFromMongoDb(context, payload) {
     axios
-      .patch(`http://localhost:3002/market/${payload.id}`, payload.data)
+      .patch(`${baseUrl}/market/${payload.id}`, payload.data)
       .then((res) => {
         console.log("added Market ToMongoDb", res);
         context.dispatch("getMarketsFromMongoDb");
@@ -228,7 +230,7 @@ export const actions = {
   },
   deleteMarketFromMongoDb(context, id) {
     axios
-      .delete(`http://localhost:3002/market/${id}`)
+      .delete(`${baseUrl}/market/${id}`)
       .then((res) => {
         console.log("deleted Market ToMongoDb", res);
         context.dispatch("getMarketsFromMongoDb");
@@ -241,7 +243,7 @@ export const actions = {
   // MarketTypes
   getMarketTypesFromMongoDb({ commit }) {
     axios
-      .get("http://localhost:3002/marketTypes")
+      .get(`${baseUrl}/marketTypes`)
       .then((res) => {
         console.log(res);
         commit("updateMarketTypes", res.data);
@@ -252,7 +254,7 @@ export const actions = {
   },
   addMarketTypeToMongoDb(context, marketType) {
     axios
-      .post("http://localhost:3002/marketType", marketType)
+      .post(`${baseUrl}/marketType`, marketType)
       .then((res) => {
         console.log("added MarketType ToMongoDb", res);
         context.dispatch("getMarketTypesFromMongoDb");
@@ -263,7 +265,7 @@ export const actions = {
   },
   updateMarketTypeFromMongoDb(context, payload) {
     axios
-      .patch(`http://localhost:3002/marketType/${payload.id}`, payload.data)
+      .patch(`${baseUrl}/marketType/${payload.id}`, payload.data)
       .then((res) => {
         console.log("added MarketType ToMongoDb", res);
         context.dispatch("getMarketTypesFromMongoDb");
@@ -275,7 +277,7 @@ export const actions = {
   },
   deleteMarketTypeFromMongoDb(context, id) {
     axios
-      .delete(`http://localhost:3002/marketType/${id}`)
+      .delete(`${baseUrl}/marketType/${id}`)
       .then((res) => {
         console.log("deleted MarketType ToMongoDb", res);
         context.dispatch("getMarketTypesFromMongoDb");
